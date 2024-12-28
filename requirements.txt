@@ -1,0 +1,5 @@
+tm1py
+pandas
+configparser
+openpyxl
+streamlit
