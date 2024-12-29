@@ -3,9 +3,6 @@ import pandas as pd
 import openpyxl
 import configparser
 from TM1py.Services import TM1Service  # Ensure TM1Service is imported here
-
-# Function to write data to a CSV file
-import csv
 import os
 
 # Function to write data to a CSV file inside the 'Export' folder
