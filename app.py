@@ -10,7 +10,7 @@ import configparser
 #config.read('config.ini')
 
 # Use st.cache_resource to cache the TM1 connection
-@st.cache_resource
+#@st.cache_resource
 def get_tm1_service_cached():
     return get_tm1_service()  # Get the TM1 service from utils.py
 
