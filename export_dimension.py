@@ -4,7 +4,14 @@ from utils import write_to_excel,write_to_excel_multiple_sheets
 
 # Function to export dimensions with elements and attributes
 def export_dimension_with_elements_and_attributes(tm1):
+    st.markdown("""   
+        <h1 style='text-align: center; font-family: Arial;'>
+        <span style='color: #FFD700;'>Tm1</span><span style='color: #4682B4;'>Exportify</span>
+        </h1>
+        """, unsafe_allow_html=True)
+     
     st.title("Export Dimension with Elements & Attributes")
+
     options = ['All Dimension with Attributes', 'All Dimension with Attributes Data']
     selected_option = st.selectbox('Select below options', options)
     
