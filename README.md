@@ -2,7 +2,7 @@
 - Tm1Exportify is a Streamlit-based web application designed to help TM1 developers and administrators quickly and efficiently export various TM1 objects and data.
 - It leverages the TM1py library to interact with a TM1 server and allows users to export key elements like dimensions, dimensions with attributes, cubes, processes, and cubes with its dimension.
 - This tool provides multiple export options in a user-friendly interface, enabling TM1 users to streamline their workflows and save time on manual tasks.
-# Demo 
+ 
 # Project Overview
 - Tm1Exportify is designed to help TM1 developers with exporting large datasets or metadata from the TM1 server into usable formats (CSV, Excel), thus simplifying various reporting and documentation tasks.
 - Export List of Objects: Export a list of TM1 objects like dimensions, cubes, and processes into CSV files.
